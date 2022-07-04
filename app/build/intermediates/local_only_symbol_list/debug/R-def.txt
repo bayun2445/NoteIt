@@ -40,5 +40,6 @@ mipmap ic_launcher_round
 string app_name
 string judul
 string lorem_ipsum
+string title
 style Theme.MiniProject_Notes
 style Widget.App.Button.OutlinedButton.IconOnly

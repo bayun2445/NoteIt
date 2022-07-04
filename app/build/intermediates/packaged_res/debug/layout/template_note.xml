@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/assistant"
-            android:text="@string/judul"
+            android:text="@string/title"
             android:textFontWeight="600"
             android:textColor="#87805E"
             android:textSize="18sp" />

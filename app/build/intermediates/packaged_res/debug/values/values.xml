@@ -27,6 +27,7 @@
     <string name="app_name">MiniProject_Notes</string>
     <string name="judul">Judul</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, constectur</string>
+    <string name="title">Title</string>
     <style name="Theme.MiniProject_Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#87805E</item>

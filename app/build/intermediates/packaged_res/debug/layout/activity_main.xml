@@ -7,12 +7,22 @@
     tools:context=".MainActivity"
     android:background="#EDDFB3">
 
-    <EditText
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/search_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        app:iconifiedByDefault="false"
         android:background="@drawable/bg_search"
+        android:layout_margin="16dp"
+        app:queryHint="Cari catatan..."
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <!--<EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_search"
+        android:layout_margin="10dp"
         android:drawableStart="@drawable/ic_baseline_search_24"
         android:fontFamily="@font/assistant"
         android:hint="Cari catatan..."
@@ -20,7 +30,7 @@
         android:paddingVertical="12dp"
         android:textColorHint="#3E2723"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"

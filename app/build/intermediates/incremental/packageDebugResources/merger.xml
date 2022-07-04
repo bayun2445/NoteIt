@@ -12,7 +12,7 @@
         </item>
     </string-array></file><file path="D:\AndroidProjects\MiniProject_Notes\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
-    </array></file><file path="D:\AndroidProjects\MiniProject_Notes\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MiniProject_Notes</string><string name="judul">Judul</string><string name="lorem_ipsum">Lorem ipsum dolor sit amet, constectur</string></file><file path="D:\AndroidProjects\MiniProject_Notes\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MiniProject_Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </array></file><file path="D:\AndroidProjects\MiniProject_Notes\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MiniProject_Notes</string><string name="judul">Judul</string><string name="lorem_ipsum">Lorem ipsum dolor sit amet, constectur</string><string name="title">Title</string></file><file path="D:\AndroidProjects\MiniProject_Notes\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MiniProject_Notes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">#87805E</item>
         <item name="colorPrimaryVariant">#D8CCA3</item>

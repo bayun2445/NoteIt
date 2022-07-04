@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.miniproject_notes.MainActivity.Companion.adapter_note
 import com.example.miniproject_notes.MainActivity.Companion.arrayList_note
+import com.example.miniproject_notes.MainActivity.Companion.tempArrayList
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.edit_note.*
 
@@ -56,9 +57,14 @@ class EditActivity: AppCompatActivity() {
         val gson = Gson()
         val json = gson.toJson(arrayList_note)
 
+
+
         editor.apply {
             putString("json", json)
             apply()
         }
+
+        tempArrayList.clear()
+        tempArrayList.addAll(arrayList_note)
     }
 }
