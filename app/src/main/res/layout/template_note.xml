@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardElevation="0dp"
-    android:layout_margin="5sp">
+    android:layout_margin="5sp"
+    android:background="@drawable/bg_edit_note">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5sp"
-        android:background="@drawable/bg_edit_note"
         android:orientation="vertical">
 
         <TextView
@@ -30,7 +30,7 @@
             android:fontFamily="@font/assistant"
             android:textFontWeight="300"
             android:text="@string/lorem_ipsum"
-            android:textColor="#D8CCA3"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
     </LinearLayout>

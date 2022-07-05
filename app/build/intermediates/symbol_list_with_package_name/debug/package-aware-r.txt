@@ -3212,7 +3212,8 @@ layout text_view_without_line_height
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3253,6 +3254,7 @@ string chip_text
 string clear_text_end_icon_content_description
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
+string fab_tambah_desc
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior

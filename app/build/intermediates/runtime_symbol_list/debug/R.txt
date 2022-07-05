@@ -3211,7 +3211,8 @@ int layout text_view_without_line_height 0x7f0c0078
 int menu example_menu 0x7f0d0000
 int menu example_menu2 0x7f0d0001
 int mipmap ic_launcher 0x7f0e0000
-int mipmap ic_launcher_round 0x7f0e0001
+int mipmap ic_launcher_adaptive_back 0x7f0e0003
+int mipmap ic_launcher_adaptive_fore 0x7f0e0004
 int plurals mtrl_badge_content_description 0x7f0f0000
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
@@ -3252,6 +3253,7 @@ int string chip_text 0x7f100023
 int string clear_text_end_icon_content_description 0x7f100024
 int string error_icon_content_description 0x7f100025
 int string exposed_dropdown_menu_content_description 0x7f100026
+int string fab_tambah_desc 0x7f10007e
 int string fab_transformation_scrim_behavior 0x7f100027
 int string fab_transformation_sheet_behavior 0x7f100028
 int string hide_bottom_view_on_scroll_behavior 0x7f100029

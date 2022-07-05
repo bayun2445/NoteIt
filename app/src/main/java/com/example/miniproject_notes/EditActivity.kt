@@ -10,22 +10,34 @@ import com.google.gson.Gson
 import kotlinx.android.synthetic.main.edit_note.*
 
 class EditActivity: AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.edit_note)
         val pos = intent.getIntExtra("POSITION", -1)
 
         if (pos != -1){
-            edit_title.setText(arrayList_note[pos].title)
-            edit_deskripsi.setText(arrayList_note[pos].deskripsi)
+            edit_title.setText(tempArrayList[pos].title)
+            edit_deskripsi.setText(tempArrayList[pos].deskripsi)
         }
 
         btn_save.setOnClickListener {
             val title = edit_title .text.toString()
             val deskripsi = edit_deskripsi.text.toString()
+            var index = -1
 
             if (pos != -1){
-                arrayList_note[pos] = DataClass(title, deskripsi)
+
+                var count = -1
+                for(row in arrayList_note){
+                    count++
+                    if (row.title.lowercase()== tempArrayList[pos].title.lowercase()){
+                        index = count
+                        break
+                    }
+                }
+                arrayList_note[index] = DataClass(title, deskripsi)
+                tempArrayList[pos] = DataClass(title, deskripsi)
                 adapter_note.notifyItemChanged(pos)
             }
             else {
@@ -66,5 +78,6 @@ class EditActivity: AppCompatActivity() {
 
         tempArrayList.clear()
         tempArrayList.addAll(arrayList_note)
+
     }
 }

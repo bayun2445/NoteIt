@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         lateinit var arrayList_note : ArrayList<DataClass>
         lateinit var tempArrayList : ArrayList<DataClass>
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 val searchText = newText!!.lowercase(Locale.getDefault())
 
                 if (searchText.isNotEmpty()){
-                    arrayList_note.forEach(){
+                    arrayList_note.forEach{
                         if (it.title.lowercase(Locale.getDefault()).contains(searchText)){
                             tempArrayList.add(it)
                         }

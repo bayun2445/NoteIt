@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">MiniProject_Notes</string>
+    <string name="app_name">NoteIt</string>
     <string name="judul">Judul</string>
     <string name="title">Title</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, constectur</string>
+    <string name="fab_tambah_desc">to open edit note activity</string>
 </resources>

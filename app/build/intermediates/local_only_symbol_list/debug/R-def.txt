@@ -36,8 +36,10 @@ layout activity_main
 layout edit_note
 layout template_note
 mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 string app_name
+string fab_tambah_desc
 string judul
 string lorem_ipsum
 string title

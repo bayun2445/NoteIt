@@ -24,7 +24,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">MiniProject_Notes</string>
+    <string name="app_name">NoteIt</string>
+    <string name="fab_tambah_desc">to open edit note activity</string>
     <string name="judul">Judul</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, constectur</string>
     <string name="title">Title</string>
