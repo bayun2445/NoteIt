@@ -2,6 +2,7 @@ package com.example.miniproject_notes
 
 import android.content.Context
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.miniproject_notes.MainActivity.Companion.adapter_note
 import com.example.miniproject_notes.MainActivity.Companion.arrayList_note
@@ -29,11 +30,11 @@ class EditActivity: AppCompatActivity() {
             if (pos != -1){
 
                 var count = -1
-                for(row in arrayList_note){
+                arrayList_note.forEach{
                     count++
-                    if (row.title.lowercase()== tempArrayList[pos].title.lowercase()){
+                    if (it.title.lowercase()== tempArrayList[pos].title.lowercase()){
                         index = count
-                        break
+
                     }
                 }
                 arrayList_note[index] = DataClass(title, deskripsi)
@@ -54,11 +55,30 @@ class EditActivity: AppCompatActivity() {
             finish()
         }
 
+
         btn_delete.setOnClickListener{
-            arrayList_note.removeAt(pos)
-            adapter_note.notifyItemRemoved(pos)
-            saveData()
-            finish()
+            val dialogBuilder = AlertDialog.Builder(this)
+
+            dialogBuilder.setMessage("Anda yakin ingin mnghapus catatan?")
+                .setPositiveButton("Ya") { _, _ ->
+                    arrayList_note.removeAt(pos)
+                    adapter_note.notifyItemRemoved(pos)
+                    saveData()
+                    finish()
+                }
+
+                .setNegativeButton("Tidak") { dialog, _ ->
+                    dialog.cancel()
+                }
+
+
+            val alert = dialogBuilder.create()
+
+            alert.setTitle("Hapus Catatan")
+
+            alert.show()
+
+
         }
 
     }
