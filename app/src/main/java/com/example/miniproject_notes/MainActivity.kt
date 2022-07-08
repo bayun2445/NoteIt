@@ -3,6 +3,7 @@ package com.example.miniproject_notes
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -59,6 +60,11 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
+        fab_github.setOnClickListener{
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/bayun2445/NoteIt.git"))
+            startActivity(intent)
+        }
 
         fab_tambah.setOnClickListener {
             val intent= Intent(this@MainActivity, EditActivity::class.java)

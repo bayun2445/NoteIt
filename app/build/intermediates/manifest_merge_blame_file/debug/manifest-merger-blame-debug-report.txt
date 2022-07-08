@@ -11,11 +11,11 @@
 9-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:5:5-25:19
+11-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
 12-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Bayu\.gradle\caches\transforms-3\aec237d7615e5b5f19aac02e97eeb357\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\Bayu\.gradle\caches\transforms-3\08bdc8530ed8c4237b10a7b6c351e326\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
@@ -24,58 +24,62 @@
 17-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:8:9-41
 18        android:supportsRtl="true"
 18-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:9:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.MiniProject_Notes" >
-20-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:10:9-55
-21        <activity
-21-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:11:9-19:20
-22            android:name="com.example.miniproject_notes.MainActivity"
-22-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:12:13-41
-23            android:exported="true" >
-23-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:13:13-36
+19        android:theme="@style/Theme.MiniProject_Notes" >
+19-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:10:9-55
+20        <activity
+20-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:11:9-20:20
+21            android:name="com.example.miniproject_notes.SplashActivity"
+21-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:12:13-43
+22            android:exported="true"
+22-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:14:13-36
+23            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+23-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:13:13-69
 24            <intent-filter>
-24-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:14:13-18:29
+24-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:15:13-19:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:15:17-69
-25-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:15:25-66
+25-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:16:17-69
+25-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:16:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:17:17-77
-27-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:17:27-74
+27-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:18:17-77
+27-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:18:27-74
 28            </intent-filter>
 29        </activity>
-30        <activity android:name="com.example.miniproject_notes.EditActivity" />
-30-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:20:9-50
-30-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:20:19-47
-31
-32        <meta-data
-32-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:22:9-24:57
-33            android:name="preloaded_fonts"
-33-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:23:13-43
-34            android:resource="@array/preloaded_fonts" />
-34-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:24:13-54
-35
-36        <provider
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-37            android:name="androidx.startup.InitializationProvider"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-38            android:authorities="com.example.miniproject_notes.androidx-startup"
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-39            android:exported="false" >
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-40            <meta-data
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-42                android:value="androidx.startup" />
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-43            <meta-data
-43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-45                android:value="androidx.startup" />
-45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-46        </provider>
-47    </application>
-48
-49</manifest>
+30        <activity android:name="com.example.miniproject_notes.MainActivity" />
+30-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:21:9-50
+30-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:21:19-47
+31        <activity android:name="com.example.miniproject_notes.EditActivity" />
+31-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:22:9-50
+31-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:22:19-47
+32
+33        <meta-data
+33-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:24:9-26:57
+34            android:name="preloaded_fonts"
+34-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:25:13-43
+35            android:resource="@array/preloaded_fonts" />
+35-->D:\AndroidProjects\MiniProject_Notes\app\src\main\AndroidManifest.xml:26:13-54
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+39            android:authorities="com.example.miniproject_notes.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Bayu\.gradle\caches\transforms-3\1bdca88ebac9582d03a2e0b002aaa769\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Bayu\.gradle\caches\transforms-3\820b2b240fd5ed0ed96ea7fe618e8d85\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+47        </provider>
+48    </application>
+49
+50</manifest>
