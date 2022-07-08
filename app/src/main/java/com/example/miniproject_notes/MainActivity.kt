@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -70,9 +71,25 @@ class MainActivity : AppCompatActivity() {
         saveData()
         noteClicked()
 
-
     }
 
+    override fun onBackPressed() {
+
+        val alertBackBuilder = AlertDialog.Builder(this)
+
+        alertBackBuilder.setTitle("Keluar")
+            .setMessage(" Anda yakin ingin keluar?")
+            .setPositiveButton("Ya"){_,_->
+                finish()
+            }
+            .setNegativeButton("Tidak"){dialog,_->
+                dialog.cancel()
+            }
+
+        val alertBack = alertBackBuilder.create()
+        alertBack.show()
+
+    }
 
 
     private fun loadData() {
