@@ -1,4 +1,4 @@
-#Sat Jul 02 23:26:30 ICT 2022
+#Sat Jul 09 00:22:47 ICT 2022
 base.2=D\:\\AndroidProjects\\MiniProject_Notes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 path.2=11/classes.dex
 base.1=D\:\\AndroidProjects\\MiniProject_Notes\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

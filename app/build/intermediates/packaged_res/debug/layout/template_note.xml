@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardElevation="0dp"
-    android:layout_margin="5sp">
+    android:layout_margin="5sp"
+    android:background="@drawable/bg_edit_note">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5sp"
-        android:background="@drawable/bg_edit_note"
         android:orientation="vertical">
 
         <TextView
@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/assistant"
-            android:text="@string/judul"
+            android:text="@string/title"
             android:textFontWeight="600"
             android:textColor="#87805E"
             android:textSize="18sp" />
@@ -30,7 +30,7 @@
             android:fontFamily="@font/assistant"
             android:textFontWeight="300"
             android:text="@string/lorem_ipsum"
-            android:textColor="#D8CCA3"
+            android:textColor="@color/black"
             android:textSize="16sp" />
 
     </LinearLayout>
