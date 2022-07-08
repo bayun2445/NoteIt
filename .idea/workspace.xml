@@ -13,6 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="02ed3fe9-f08b-4e5b-9477-86cd7ff5fa5e" name="Default Changelist" comment="added alert box in delete and back action">
       <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/miniproject_notes/SplashActivity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/img_anim.xml" afterDir="false" />
@@ -73,6 +74,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,6 +228,7 @@
       <option name="project" value="LOCAL" />
       <updated>1656779193392</updated>
     </task>
+
     <task id="LOCAL-00003" summary="fixed search field for recycler view">
       <created>1656909435732</created>
       <option name="number" value="00003" />
@@ -254,7 +257,9 @@
       <option name="project" value="LOCAL" />
       <updated>1657292501873</updated>
     </task>
+
     <option name="localTasksCounter" value="7" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,10 +276,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added recycler view, edit activity, and search field." />
-    <MESSAGE value="fixed search field for recycler view" />
+lue="fixed search field for recycler view" />
     <MESSAGE value="fixed fixed load and save data after committing search" />
     <MESSAGE value="added alert box before deleting notes" />
     <MESSAGE value="added alert box in delete and back action" />
+
     <option name="LAST_COMMIT_MESSAGE" value="added alert box in delete and back action" />
+
   </component>
 </project>
